@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Navbar from './component/Navbar'
-import Textform from './component/Textform'
+import Textform2 from './component/Textform2'
 
 
 export default function App() {
@@ -27,11 +27,16 @@ export default function App() {
 
       <div className="container min-w-2">
 
-        <Textform navClassNames={navClassNames}
+        <Textform2
           darkMode={darkMode} />
 
 
       </div>
+      <footer className="w-full bg-gray-400 text-white py-4 text-center mt-10">
+        <p className="text-sm">
+          © {new Date().getFullYear()} Sudarshana Pvt Ltd. All rights reserved.
+        </p>
+      </footer>
 
     </>
   )
